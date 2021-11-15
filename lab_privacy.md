@@ -60,7 +60,7 @@ OneDrive: [onedrive.live.com/](onedrive.live.com/)
 
 Box: [https://uwmadison.account.box.com/login](https://uwmadison.account.box.com/login)
 
-## Data Privacy Best Practices
+## Privacy Best Practices
 
 ### Password Managers
 
@@ -68,7 +68,7 @@ Have any of your passwords been leaked in existing data breaches? Let's check:
 
 https://haveibeenpwned.com/
 
-### BitWarden - Easy to Use and FOSS
+#### BitWarden - Easy to Use and FOSS
 
 Steps to install on Windows, MacOS, iOS, and Android
 
@@ -83,12 +83,25 @@ Installing BitWarden on your computer:
 4. Install/Setup Bitwarden on your mobile device:
 	* https://bitwarden.com/help/article/getting-started-mobile/
 
-### KeePass - Difficult to Setup/Use/Maintain but *very* secure
+### Platform Tracking
 
-Steps to install on Windows, MacOS, iOS, and Android
+An immense amount of data is collected about us across every single website we visit and every app we open. While it is impossible to prevent all tracking performed by these services, it is possible to minimizing the tracking. Generally, social media platforms are the biggest culprits of data harvesting with Facebook, TikTok, WhatsApp, and Instagram retaining the most information about user action. There are a series of steps we can take to minimize tracking on these platforms are across these platforms. The recommendations below are listed in order from easiest to most difficult to implement.
 
-### Privacy Best Practices
+#### *(Very easy)* Preventing cross-platform tracking across websites
 
-Prevent Tracking Cookies by using PrivacyBadger (EFF) and uBlock Origin
+* Prevent cross-site tracking cookies by using the [PrivacyBadger](https://privacybadger.org/) browser add-on developed by the Electronic Fronteir Foundation.
+* Use Firefox/Safari instead of Google Chrome. Both of these browsers have more consumer friendly privacy policies than Google Chrome.
+* Disable unnecessary permissions for apps on your phone.
+	* iOS: Settings --> Privacy
+	* Android: Settings --> Privacy --> Permission Manager
+* Limit ad-tracking in iOS: Settings --> Privacy --> Tracking (make sure this is disabled)
+
+#### *(Easy but takes time)* Changing privacy settings of social media services that you may use
+
+* [Follow this guide to limit how much information is public about your Facebook profile](https://www.consumerreports.org/privacy/facebook-privacy-settings-a1775535782/#guard
+)
+* [Follow this guide to limit how much information is public about your Instagram profile](https://www.consumerreports.org/privacy/instagram-privacy-settings-a3036233134/
+)
 
 Using Signal or ether E2E chat apps
+
