@@ -103,5 +103,12 @@ An immense amount of data is collected about us across every single website we v
 * [Follow this guide to limit how much information is public about your Instagram profile](https://www.consumerreports.org/privacy/instagram-privacy-settings-a3036233134/
 )
 
-Using Signal or ether E2E chat apps
+#### *(Advanced)* Move to social network/chat apps that are end-to-end encrypted
+
+End-to-end (E2E) encrypted messages mean that any messages you send to a receivers cannot be read by the service that is delivering the message. For instance, WhatsApp and iMessage both use E2E encryption for their messages so that means neither Facebook nor Apple can read the contents of the messages that are sent using their services. This is fantastic, but not all messaging platforms are created equally. WhatsApp still collectings a tremendous amount of data from their users outside of the contents of messages while Apple claims to keep as little information as possible. This does not mean I endorse using iMessage as a secure chat platform. Rather, it illustrates how complicated the landscape is when it comes to data privacy on messaging platforms. I suggest using platforms that use E2E encryption for messages and are *transparent* about the data they retain from their customers. Apple falls into the opaque category, while a service like Signal is much more transparent. Moreover, Signal is entirely open source so third parties can audit the code to make sure Signal is not up to anything nefarious. Lastly, there is the category of messaging services that claim to privacy oriented and transparent, like Telegram, while not being either in practice. By default, no messages on Telegram are E2E encrypted - conversations must be made "Secret" to enable encryption. Additionally, their encryption algorithm is not as well regarded as the industry standard algorithms used by Signal.
+
+Making this transition is difficult because you need to get your friends and family aboard the Signal ship to maintain that all of your digital conversations are private.
+
+Instructions for installing Signal: [https://support.signal.org/hc/en-us/articles/360008216551-Installing-Signal](https://support.signal.org/hc/en-us/articles/360008216551-Installing-Signal)
+
 
