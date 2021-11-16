@@ -71,9 +71,26 @@ This is my current career stage, so I can give some guidance on my data backup p
 
 Another great advantage of backing up your data is version tracking! I've made plenty of changes to manuscripts that I wanted to undo and with realtime backups I can easily revert a document to a previous version. Cloud storage providers and local backups support this feature, and it can be a lifesaver!
 
-## How to Backup Your Data
+## Today: How to Backup Your Data with a cloud provider
 
-You can use these links as resources in the future, but today we'll try to set up one of these cloud backups!
+After todays lab meeting you should have a folder on your computer that contains all of your important documents that is backed up to the cloud in real-time. That means the second you make an edit on a Word document and hit save, it starts to get uploaded to your cloud provider of choice. The name of this folder varies by operating system and cloud storage provider. For instance, on a Mac Google Drive creates a new volume that appears under "Favorites" or "Volumes" on the left hand side of Finder. In contrast, on a Windows computer Google Drive creates a "Google Drive" folder in My Documents where all of your Google Drive files live. The contents of these folders are actively backed up to Google Drive which means that after you install and setup your cloud service of choice, you'll have to move (not copy) all of your important data into these folders to that they get backed up. Additionally, when you create new documents/pictures/etc., you'll need to save them to this folder.
+
+Each cloud storage provider has their own benefits and costs, luckily if you are a part of the UW-Madison system as a student, researcher, or faculty member you get access to several services entirely for free! I don't really have any recommendations as they all share important features: real-time backups and version history. However, there are some considerations. For instance, OneDrive is *baked into* Windows which means you won't have to install anything - all you have to do is login to OneDrive program on your computer using your @wisc.edu email address. Similarly, iCloud Drive is baked into MacOS. For reference, I use Google Drive because I'm a big fan of Google Photos as a way to backup and access all of my photos across any device but you can't make a wrong decision. Follow the steps below to get your important data backing up to the cloud:
+
+1. Install a cloud backup service (all below are free through UW-Madison):
+	* [Google Drive](https://support.google.com/a/users/answer/9965580?hl=en)
+	* [OneDrive](https://support.microsoft.com/en-us/office/turn-on-onedrive-backup-4e44ceab-bcdf-4d17-9ae0-6f00f6080adb)
+	* [WiscBox](https://support.box.com/hc/en-us/articles/360043697194-Installing-Box-Sync)
+2. Locate the folder/volume created during the installation process that get's backed up
+3. Move all of your important data into that folder
+4. Wait until all data is uploaded to the cloud service (may take 30 minutes to hours depending on how much data you have)
+5. Done! Be sure to only edit files within this folder/volume to ensure that your cloud backup is always up-to-date. That is, you don't accidentally create a file in "Documents" that isn't backed up.
+6. In case you need to revert any changes or recover any lost data simply reinstall the program, login, and everything will start syncing. You could also go to each programs corresponding website to see your backed up data.
+	* [Google Drive](https://drive.google.com/)
+	* [OneDrive](onedrive.live.com/)
+	* [WiscBox](https://uwmadison.account.box.com/login)
+
+## Homework: Setup a local backup using these guides
 
 ### Windows - FileHistory (Local)
 
@@ -83,42 +100,11 @@ You can use these links as resources in the future, but today we'll try to set u
 
 [https://support.apple.com/en-us/HT201250](https://support.apple.com/en-us/HT201250)
 
-### Google Drive (Cloud - Unlimited Space through UW-Madison)
-
-[https://support.google.com/a/users/answer/9965580?hl=en](https://support.google.com/a/users/answer/9965580?hl=en)
-
-### OneDrive (Cloud - Unlimited Space through UW-Madison)
-
-[https://support.microsoft.com/en-us/office/turn-on-onedrive-backup-4e44ceab-bcdf-4d17-9ae0-6f00f6080adb](https://support.microsoft.com/en-us/office/turn-on-onedrive-backup-4e44ceab-bcdf-4d17-9ae0-6f00f6080adb)
-
-### Box (Cloud - 500 GBs through UW-Madison)
-
-[https://support.box.com/hc/en-us/articles/360043697194-Installing-Box-Sync](https://support.box.com/hc/en-us/articles/360043697194-Installing-Box-Sync)
-
-## How to Recovery Your Data
-
-### Windows - FileHistory (Local)
+### Windows - FileHistory Data Recovery
 
 [https://support.microsoft.com/en-us/windows/backup-and-restore-in-windows-352091d2-bb9d-3ea3-ed18-52ef2b88cbef#WindowsVersion=Windows_10](https://support.microsoft.com/en-us/windows/backup-and-restore-in-windows-352091d2-bb9d-3ea3-ed18-52ef2b88cbef#WindowsVersion=Windows_10)
 
-### MacOS - Time Machine (Local)
+### MacOS - Time Machine Data Recovery
 
 [https://support.apple.com/guide/mac-help/restore-files-mh11422/mac](https://support.apple.com/guide/mac-help/restore-files-mh11422/mac)
-
-### Google Drive, OneDrive, Box
-
-Go to the corresponding website and all of your lost files should still be there!
-
-Google Drive: [https://drive.google.com/](https://drive.google.com/)
-
-OneDrive: [onedrive.live.com/](onedrive.live.com/)
-
-Box: [https://uwmadison.account.box.com/login](https://uwmadison.account.box.com/login)
-
-## Privacy Best Practices
-
-### Password Managers
-
-
-
 
