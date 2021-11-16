@@ -1,4 +1,59 @@
-# Data Privacy and Backups: Best Solutions
+# Data Privacy and Backups: Best Practices
+
+After this lab meeting you should have a laptop and phone that is actively being backed up, with stored and synchronized passwords, that limits ad-tracking across the internet.
+
+*Goals:*
+
+1. Reduce digital footprint
+2. Start using a password manager
+3. Start peforming real-time cloud backups
+
+# 1. Reduce digital footprint
+
+An immense amount of data is collected about us across every single website we visit and every app we open. While it is impossible to prevent all tracking performed by these services, it is possible to minimizing the tracking. Generally, social media platforms are the biggest culprits of data harvesting with Facebook, TikTok, WhatsApp, and Instagram retaining the most information about user action. There are a series of steps we can take to minimize tracking on these platforms are across these platforms. The recommendations below are listed in order from easiest to most difficult to implement.
+
+## *(Very easy)* Preventing cross-platform tracking across websites
+
+* Prevent cross-site tracking cookies by using the [PrivacyBadger](https://privacybadger.org/) browser add-on developed by the Electronic Fronteir Foundation.
+* Use Firefox/Safari instead of Google Chrome. Both of these browsers have more consumer friendly privacy policies than Google Chrome.
+* Disable unnecessary permissions for apps on your phone.
+	* iOS: Settings --> Privacy
+	* Android: Settings --> Privacy --> Permission Manager
+* Limit ad-tracking in iOS: Settings --> Privacy --> Tracking (make sure this is disabled)
+
+## *(Easy but takes time)* Changing privacy settings of social media services that you may use
+
+* [Follow this guide to limit how much information is public about your Facebook profile](https://www.consumerreports.org/privacy/facebook-privacy-settings-a1775535782/#guard
+)
+* [Follow this guide to limit how much information is public about your Instagram profile](https://www.consumerreports.org/privacy/instagram-privacy-settings-a3036233134/
+)
+
+## *(Advanced)* Move to social network/chat apps that are end-to-end encrypted
+
+End-to-end (E2E) encrypted messages mean that any messages you send to a receivers cannot be read by the service that is delivering the message. For instance, WhatsApp and iMessage both use E2E encryption for their messages so that means neither Facebook nor Apple can read the contents of the messages that are sent using their services. This is fantastic, but not all messaging platforms are created equally. WhatsApp still collectings a tremendous amount of data from their users outside of the contents of messages while Apple claims to keep as little information as possible. This does not mean I endorse using iMessage as a secure chat platform. Rather, it illustrates how complicated the landscape is when it comes to data privacy on messaging platforms. I suggest using platforms that use E2E encryption for messages and are *transparent* about the data they retain from their customers. Apple falls into the opaque category, while a service like Signal is much more transparent. Moreover, Signal is entirely open source so third parties can audit the code to make sure Signal is not up to anything nefarious. Lastly, there is the category of messaging services that claim to privacy oriented and transparent, like Telegram, while not being either in practice. By default, no messages on Telegram are E2E encrypted - conversations must be made "Secret" to enable encryption. Additionally, their encryption algorithm is not as well regarded as the industry standard algorithms used by Signal.
+
+Making this transition is difficult because you need to get your friends and family aboard the Signal ship to maintain that all of your digital conversations are private.
+
+Instructions for installing Signal: [https://support.signal.org/hc/en-us/articles/360008216551-Installing-Signal](https://support.signal.org/hc/en-us/articles/360008216551-Installing-Signal)
+
+# 2. Start using a password manager
+
+Have any of your passwords been leaked in existing data breaches? Let's check:
+
+https://haveibeenpwned.com/
+
+One of the biggest internet security risks we all share are old, simple, and reused password littered across a variety of sites and accounts. Passwords **should** be long and complex, but that makes them very difficult to remember. This is where password managers come to the rescue! Password managers are programs that allow you to create and store long, complex passwords without having to remember them. Generally, password managers operate by creating a database that is encrypted by a single "master" password. Once you type in your master password you unlock the database and have access to all of the stored passwords. Many password managers exist and all offer unique features, benefits, and costs. Ideally we want a password manager that is secure and transparent, stored in a way that only you can ever see the contents of your password database. There are two options that fulfill these requirements: Bitwarden and KeePass. KeePass is the gold standard for password security. KeePass databases are entirely offline (not stored on any servers) encrypted by advanced algorithms that make cracking your database encryption impossible. However, KeePass can be hard to setup and even harder to make work across multiple devices. This is where Bitwarden comes in. Bitwarden is a company and password manager that simplifies the process quite a bit. Bitwarden automatically syncs your passwords across all of your devices making setting up and using your password database very simple! Unfortunately, this comes with risks. While your databse is encrypted, it is still stored on their servers which does contain some risk, although minimal. Given all of the transparency and quality of life benefits of Bitwarden, thats what we'll be setting up today! Follow the instructions below to install Bitwarden on your computer:
+
+1. [Create a free account.](https://bitwarden.com/pricing)
+2. [Import you existing passwords into Bitwarden.](https://bitwarden.com/help/article/import-data/)
+3. Install Bitwarden browser extension into your preferred browser.
+	* Firefox: https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/
+	* Chrome: https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb
+	* Safari: https://bitwarden.com/help/article/install-safari-app-extension/
+4. Install/Setup Bitwarden on your mobile device:
+	* https://bitwarden.com/help/article/getting-started-mobile/
+
+# 3. Start peforming real-time cloud backups
 
 ## 3-2-1 Golden Rule of Data Backup
 
@@ -64,51 +119,6 @@ Box: [https://uwmadison.account.box.com/login](https://uwmadison.account.box.com
 
 ### Password Managers
 
-Have any of your passwords been leaked in existing data breaches? Let's check:
 
-https://haveibeenpwned.com/
-
-#### BitWarden - Easy to Use and FOSS
-
-Steps to install on Windows, MacOS, iOS, and Android
-
-Installing BitWarden on your computer:
-
-1. [Create a free account.](https://bitwarden.com/pricing)
-2. [Import you existing passwords into Bitwarden.](https://bitwarden.com/help/article/import-data/)
-3. Install Bitwarden browser extension into your preferred browser.
-	* Firefox: https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/
-	* Chrome: https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb
-	* Safari: https://bitwarden.com/help/article/install-safari-app-extension/
-4. Install/Setup Bitwarden on your mobile device:
-	* https://bitwarden.com/help/article/getting-started-mobile/
-
-### Platform Tracking
-
-An immense amount of data is collected about us across every single website we visit and every app we open. While it is impossible to prevent all tracking performed by these services, it is possible to minimizing the tracking. Generally, social media platforms are the biggest culprits of data harvesting with Facebook, TikTok, WhatsApp, and Instagram retaining the most information about user action. There are a series of steps we can take to minimize tracking on these platforms are across these platforms. The recommendations below are listed in order from easiest to most difficult to implement.
-
-#### *(Very easy)* Preventing cross-platform tracking across websites
-
-* Prevent cross-site tracking cookies by using the [PrivacyBadger](https://privacybadger.org/) browser add-on developed by the Electronic Fronteir Foundation.
-* Use Firefox/Safari instead of Google Chrome. Both of these browsers have more consumer friendly privacy policies than Google Chrome.
-* Disable unnecessary permissions for apps on your phone.
-	* iOS: Settings --> Privacy
-	* Android: Settings --> Privacy --> Permission Manager
-* Limit ad-tracking in iOS: Settings --> Privacy --> Tracking (make sure this is disabled)
-
-#### *(Easy but takes time)* Changing privacy settings of social media services that you may use
-
-* [Follow this guide to limit how much information is public about your Facebook profile](https://www.consumerreports.org/privacy/facebook-privacy-settings-a1775535782/#guard
-)
-* [Follow this guide to limit how much information is public about your Instagram profile](https://www.consumerreports.org/privacy/instagram-privacy-settings-a3036233134/
-)
-
-#### *(Advanced)* Move to social network/chat apps that are end-to-end encrypted
-
-End-to-end (E2E) encrypted messages mean that any messages you send to a receivers cannot be read by the service that is delivering the message. For instance, WhatsApp and iMessage both use E2E encryption for their messages so that means neither Facebook nor Apple can read the contents of the messages that are sent using their services. This is fantastic, but not all messaging platforms are created equally. WhatsApp still collectings a tremendous amount of data from their users outside of the contents of messages while Apple claims to keep as little information as possible. This does not mean I endorse using iMessage as a secure chat platform. Rather, it illustrates how complicated the landscape is when it comes to data privacy on messaging platforms. I suggest using platforms that use E2E encryption for messages and are *transparent* about the data they retain from their customers. Apple falls into the opaque category, while a service like Signal is much more transparent. Moreover, Signal is entirely open source so third parties can audit the code to make sure Signal is not up to anything nefarious. Lastly, there is the category of messaging services that claim to privacy oriented and transparent, like Telegram, while not being either in practice. By default, no messages on Telegram are E2E encrypted - conversations must be made "Secret" to enable encryption. Additionally, their encryption algorithm is not as well regarded as the industry standard algorithms used by Signal.
-
-Making this transition is difficult because you need to get your friends and family aboard the Signal ship to maintain that all of your digital conversations are private.
-
-Instructions for installing Signal: [https://support.signal.org/hc/en-us/articles/360008216551-Installing-Signal](https://support.signal.org/hc/en-us/articles/360008216551-Installing-Signal)
 
 
