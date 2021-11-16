@@ -16,17 +16,20 @@ An immense amount of data is collected about us across every single website we v
 
 * Prevent cross-site tracking cookies by using the [PrivacyBadger](https://privacybadger.org/) browser add-on developed by the Electronic Fronteir Foundation.
 * Use Firefox/Safari instead of Google Chrome. Both of these browsers have more consumer friendly privacy policies than Google Chrome.
+	* If you use Firefox, [follow this guide](https://www.maketecheasier.com/firefox-multi-account-containers-explained/) on using containers to separate  browsing activity within different profiles.
+* Use [DuckDuckGo](https://duckduckgo.com/) instead of Google as your search engine.
 * Disable unnecessary permissions for apps on your phone.
 	* iOS: Settings --> Privacy
 	* Android: Settings --> Privacy --> Permission Manager
 * Limit ad-tracking in iOS: Settings --> Privacy --> Tracking (make sure this is disabled)
 
-## *(Easy but takes time)* Changing privacy settings of social media services that you may use
+## *(Easy but takes time)* Changing privacy settings of social media services that you may use and setting up a VPN
 
 * [Follow this guide to limit how much information is public about your Facebook profile](https://www.consumerreports.org/privacy/facebook-privacy-settings-a1775535782/#guard
 )
 * [Follow this guide to limit how much information is public about your Instagram profile](https://www.consumerreports.org/privacy/instagram-privacy-settings-a3036233134/
 )
+* Set up a VPN (Virtual Private Network). A VPN sets up a private network through a public internet connection, which masks your IP address so your online actions are virtually untraceable. A VPN is especially important when you're on insecure public networks, like coffee shop or hotel WiFi. [ProtonVPN](https://protonvpn.com/) is one of the best free VPNs out there.
 
 ## *(Advanced)* Move to social network/chat apps that are end-to-end encrypted
 
